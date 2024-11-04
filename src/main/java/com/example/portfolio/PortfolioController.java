@@ -8,6 +8,6 @@ public class PortfolioController {
 
     @GetMapping()
     public String getMainPage() {
-        return "main";
+        return "index";
     }
 }
